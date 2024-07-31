@@ -2,13 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 body {
@@ -20,19 +25,19 @@ body {
     justify-content: center;
 }
 
-h1 {
-    margin: 20px 0 20px 0;
+h1, .space {
+    margin-bottom: 1rem;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    width: 75em;
+    width: 70em;
 }
 
 nav {
-    padding: 2rem 0 0 2rem;
-    width: 200px;
+    padding: 2rem;
+    width: 220px;
 }
 
 nav ul {
@@ -56,11 +61,11 @@ main {
 }
 
 section {
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
 }
 
-#experience .xp {
+.xp {
     display: flex;
     flex-direction: row;
     background-color: #F9F9F9;
@@ -69,9 +74,10 @@ section {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     align-items: center;
+    line-height: 1.4;
 }
 
-#logo {
+.logo {
     width: 200px;
     height: auto;
     margin: 0 2rem 0 0;
