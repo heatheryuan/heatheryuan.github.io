@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    line-height: 1.6;
+    color: #333;
+    justify-content: center;
+}
+
+h1, .space {
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70em;
+}
+
+nav {
+    padding: 2rem;
+    width: 220px;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+} 
+
+#icon {
+    width: 20px;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+    width: 100%;
+}
+
+section {
+    margin: 20px auto;
+    display: flex;
+}
+
+.xp {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F9F9;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    line-height: 1.4;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 0 2rem 0 0;
+}
+
+#headshot {
+    height: 200px;
+    width: 200px;
+}
+
+
