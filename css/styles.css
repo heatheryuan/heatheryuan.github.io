@@ -50,6 +50,51 @@ body {
     font-weight: bold;
   }
 
+  /* Intro section with headshot */
+.intro-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.headshot-container {
+  flex-shrink: 0;
+}
+
+.headshot {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+  flex-grow: 1;
+}
+
+.intro-text h1 {
+  margin-top: 0;
+}
+
+.intro-text p {
+  margin-bottom: 0;
+}
+
+/* For mobile screens */
+@media (max-width: 640px) {
+  .intro-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .headshot {
+    width: 100px;
+    height: 100px;
+  }
+}
+
   /* Wave */
   .wave-emoji {
     display: inline-block;
