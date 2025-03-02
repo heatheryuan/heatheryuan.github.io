@@ -1,33 +1,4 @@
 // Create floating background elements
-// const background = document.getElementById('background');
-// const numElements = 30; // More elements but smaller
-// const types = ['circle', 'square'];
-// const colors = ['#93c5fd', '#60a5fa']; // blue-300, blue-400
-
-// for (let i = 0; i < numElements; i++) {
-//   const element = document.createElement('div');
-//   const type = types[Math.floor(Math.random() * types.length)];
-//   const color = colors[Math.floor(Math.random() * colors.length)];
-//   const size = Math.random() * 8 + 4;
-  
-//   element.classList.add('floating-element', type);
-//   element.style.backgroundColor = color;
-//   element.style.width = `${size}px`;
-//   element.style.height = `${size}px`;
-//   element.style.top = `${Math.random() * 100}%`;
-//   element.style.left = `${Math.random() * 100}%`;
-//   // element.style.animationDuration = `${Math.random() * 10 + 15}s`; // 15s to 25s
-//   element.style.animationDuration = '10s';
-//   element.style.animationDelay = `${Math.random() * 5}s`;
-
-//   const animationNames = ['float1', 'float2', 'float3', 'float4'];
-//   const randomAnimation = animationNames[Math.floor(Math.random() * animationNames.length)];
-//   element.style.animationName = randomAnimation;
-  
-//   background.appendChild(element);
-// }
-
-// Create floating background elements
 const background = document.getElementById('background');
 const numElements = 10; // Number of elements
 const types = ['circle', 'square'];

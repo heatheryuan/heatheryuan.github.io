@@ -5,10 +5,10 @@ const navLinks = document.querySelectorAll('.nav-link');
 const tilts = [-4, 4, -4, 4, -4];
 
 // Get current page filename
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+const currentPage = window.location.pathname;
 
 navLinks.forEach((link, index) => {
-    // Get the href attribute
+  // Get the href attribute
   const href = link.getAttribute('href');
   
   // Check if this link corresponds to the current page
