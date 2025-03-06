@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heather Yuan</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Content -->
+  <div class="content">
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link">about</a>
+        <!-- <a href="work.html" class="nav-link">work</a> -->
+        <a href="https://heatheryuan.com/musings/" class="nav-link">musings</a>
+        <a href="now.html" class="nav-link">now</a>
+        <a href="contact.html" class="nav-link">contact</a>
+      </div>
+    </nav>
+    
+    <main class="container">
+    <!-- Experience Section -->
+      <section>
+        <h2 class="text-center" style="color: #1e3a8a; font-weight: bold; font-size: 1.25rem;">Work Experience</h2>
+        <div class="projects">
+          <div class="project-card">
+            <h3 class="project-title">Netflix</h3>
+            <p class="project-subtitle">August 2024 - Present</p>
+            <p style="margin-bottom: 0;">Building the core backend services that power the Netflix Games Developer Platform.</p>
+            <p style="margin-bottom: 0">Java • Kubernetes • Protobuf • Time-series Cloud Database</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Grafana Labs</h3>
+            <p class="project-subtitle">June 2023 - August 2023</p>
+            <p>Optimized time-series cloud database to reduce long-term query latency by 80% and component startup time by 92%.</p>
+            <p style="margin-bottom: 0">Go • Kubernetes • Protobuf • Time-series Cloud Database</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Aperture Finance</h3>
+            <p class="project-subtitle">June 2022 - August 2022</p>
+            <p>Implemented Ethereum smart contract to optimize lending strategy by 175% and built out fully-responsive user profile webpage.</p>
+            <p style="margin-bottom: 0">Typescript • React.js • Solidity • Blockchain</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section>
+        <h2 class="text-center" style="color: #1e3a8a; font-weight: bold; font-size: 1.25rem; margin-top: 3rem;">Technical Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <h3 class="project-title">AFX Roster</h3>
+            <p>Lead a team of 7 student engineers to develop a multi-functional webapp for campus dance organization that manages a
+              database of 1k+ dancers. Utilizes login authentication to suppport hierarchical user permissions ranging from guest request forms to admin database updates.</p>
+            <p style="margin-bottom: 0">Python • React.js • Flask • PostgreSQL</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Gym Watch</h3>
+            <p>Developed a script to webscrape gym capacity meter, send alerts to a Discord server based on user capacity and 
+              hour preferences, and store to a database to visualize weekly averages on webapp.</p>
+            <p style="margin-bottom: 0">Python • AWS • Pandas • PostgreSQL</p>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">FlashGPT</h3>
+            <p>Built out a full-stack webapp that utilizes OpenAI API to summarize user-uploaded notes into vocabulary flashcards and quizzes. 
+              Users can flip through generated flashcards or attempt the vocabulary quiz and recieve feedback on similarity between the guessed and actual definition.</p>
+            <p style="margin-bottom: 0">Python • React.js • Flask • OpenAI API</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+      © <span id="year"></span> [Your Name] <span style="color: #3b82f6; padding: 0 0.5rem;">★</span> Made with curiosity
+    </footer>
+  </div>
+  <script src="js/script.jsx"></script>
+</body>
+</html>

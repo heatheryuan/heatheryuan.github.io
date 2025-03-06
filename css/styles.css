@@ -189,14 +189,15 @@ body {
     font-weight: 500;
     color: #1e40af; /* blue-800 */
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .project-subtitle {
-    font-size: 0.75rem;
+    color: grey; 
+    font-style: italic;
+    font-size: 0.9rem;
     font-weight: 500;
-    color: #2563eb; /* blue-600 */
-    margin-top: 0;
+    margin-top: 0.3rem;
   }
 
   /* Links */
